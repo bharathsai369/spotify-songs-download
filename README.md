@@ -4,21 +4,21 @@ A simple and efficient Python script that allows you to download your favorite m
 
 ## Features
 
-- 🎵 Download individual tracks from Spotify
-- 📑 Download entire playlists
-- 💿 Download complete albums
-- 🎨 Automatic metadata and artwork embedding
-- 📁 Organized file structure
-- 🔊 High-quality audio output
+- Download individual tracks from Spotify
+- Download entire playlists
+- Download complete albums
+- Automatic metadata and artwork embedding
+- Organized file structure
+- High-quality audio output
 
-##  Requirements
+## Requirements
 
 - Windows 10/11
 - Python 3.9 or higher
 - Internet connection
 - Spotify account (free or premium)
 
-##  Installation Steps
+## Installation Steps
 
 ### 1. Install FFmpeg
 
@@ -27,6 +27,8 @@ FFmpeg is required for audio conversion. Install it using Windows Package Manage
 ```powershell
 winget install --id Gyan.FFmpeg -e --source winget
 ```
+
+**Note about Windows PATH**: After installing FFmpeg via winget, you might need to restart your terminal or add FFmpeg to PATH manually for it to be recognized immediately.
 
 ### 2. Install spotDL
 
@@ -44,7 +46,7 @@ Execute the script using Python:
 python main.py
 ```
 
-##  Usage
+## Usage
 
 1. Launch the script
 2. Enter your Spotify URL when prompted
@@ -56,7 +58,7 @@ Supported URL formats:
 - Album: `https://open.spotify.com/album/...`
 - Playlist: `https://open.spotify.com/playlist/...`
 
-##  Important Notes
+## Important Notes
 
 - Ensure you have sufficient storage space for downloads
 - A stable internet connection is recommended
